@@ -1,0 +1,52 @@
+/*Showing the border and making the sizes of blocks stay the same*/
+
+* {
+            /*border: 1px solid red;*/
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        /*<!-- put in foundation icon font?-->*/
+
+
+header {
+    background-color: #ef3c2b;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    /*font-size: 2em;*/
+}
+
+header img {
+    border-radius: 50%;
+    border: 4px solid black;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.abc {
+    background-color: gray;
+    width: 150px;
+}
+
+.content {
+    background-image:url('img/futurama_desktop.jpg');
+}
