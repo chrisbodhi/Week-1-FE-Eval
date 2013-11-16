@@ -65,14 +65,12 @@ span img {
 
 footer {
     background-color: blue;
-    /*color: gray;*/
     font-size: 3em;
-    /*text-shadow: 0px 2px 3px #666; Text must be darker than background*/
 }
 
 .hours {
     background-color: yellow; /*textured light yellow instead?*/
-    height: 125px;
+    height: 250px;
 }
 
 .hours p {
@@ -84,9 +82,27 @@ footer {
 
 .location {
     background-color: #ef3c2b;
-    /*color: white;*/
-    text-align: center;
-    height: 125px;
-    text-shadow: 0px 2px 3px #555;
+    height: 250px;
+}
 
+.location p {
+    font-size: .75em;
+    color: #660000;
+    text-align: center;
+    text-shadow: 0px 2px 3px #FF6666;
+    font-weight:bolder;
+}
+
+.location p a {
+    color: #660000;
+    text-align: center;
+    text-shadow: 0px 2px 3px #FF6666;
+    font-weight:bolder;
+    transition: color 2s, text-shadow 2s;
+    -webkit-transition: color 2s, text-shadow 2s; /* Safari */    
+}
+
+.location p a:hover {
+    color: white;
+    text-shadow: 0px -2px 3px #333333;
 }
