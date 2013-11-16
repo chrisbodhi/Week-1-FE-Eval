@@ -1,7 +1,7 @@
 /*Showing the border and making the sizes of blocks stay the same*/
 
 * {
-            /*border: 1px solid red;*/
+            border: 1px solid red;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -30,6 +30,7 @@ nav {
     background-color: gray;
     text-align: center;
     font-size: 1.3em;
+    padding: 7px 0;
 }
 
 nav a {
@@ -49,4 +50,9 @@ nav a:hover {
 
 .content {
     background-image:url('img/futurama_desktop.jpg');
+}
+
+footer {
+    background-color: #ef3c2b;
+    color: white;
 }
