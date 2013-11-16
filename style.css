@@ -1,11 +1,11 @@
 /*Showing the border and making the sizes of blocks stay the same*/
 
-* {
+/** {
             border: 1px solid red;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
-        }
+        }*/
 
         /*<!-- put in foundation icon font?-->*/
 
@@ -25,7 +25,6 @@ header h1 {
 header img {
     border-radius: 50%;
     border: 4px solid black;
-    overflow: scroll;
 }
 
 nav {
