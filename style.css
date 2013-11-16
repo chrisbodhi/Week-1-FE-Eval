@@ -65,24 +65,39 @@ span img {
 
 footer {
     background-color: blue;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .hours {
     background-color: yellow; /*textured light yellow instead?*/
-    height: 250px;
+    height: 75px;
+    margin: 0 auto;
+    transition: height 3s;
+    -webkit-transition: height 3s;
 }
 
-.hours p {
+.hours h3 {
     color: #FF9900;
+    font-size: 1.5em;
     text-align: center;
     text-shadow: 0px 2px 3px #FFFF99;
     font-weight:bolder;
 }
 
+.hours div {
+    color: #FF9900;
+    font-size: .85em;
+    text-align: center;
+    text-shadow: 0px 2px 3px #FFFF99;
+}
+
+.hours:hover {
+    height: 200px;
+}
+
 .location {
     background-color: #ef3c2b;
-    height: 250px;
+    height: 75px;
 }
 
 .location p {
