@@ -5,75 +5,74 @@
         <title>Austin Books &amp; Comics!</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <!-- Version 4.3.2 of Foundation-->
-<link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/4.3.2/css/foundation.css" />
+        <link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/4.3.2/css/foundation.css" />
+        <!-- Fonts from Google: Bangers for titles, xxx for paragraphs -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bangers" />
         <!-- Favicon goes below -->
         <link rel="icon" 
               type="image/png" 
-              href="img/favicon_111.ico">
+              href="img/favicon.ico" />
     </head>
 <body>
 
 <!-- Header -->
 
-<header>
-  <div class="row">
-    <div class="large-1 columns"></div>
-    <div class="large-2 columns">
-      <a href="index.html" alt="Back to the Home Page"><img class="logo" src="img/head_logo.png" /></a>
-    </div>
-    <div class="large-1 columns"></div>
-    <div class="large-7 columns">
-      <h1>Austin Books &amp; Comics!</h1>
-    </div>
-    <div class="large-1 columns"></div>
-  </div>
-</header>
+    <header>
+        <div class="row">
+            <div class="large-2 columns">
+            </div>
+            <div class="large-2 columns">
+                <a href="index.html" alt="Back to the Home Page"><img class="logo" src="img/head_logo.png" /></a>
+            </div>
+            <div class="large-6 columns">
+                <h1>Austin Books &amp; Comics!</h1>
+            </div>
+            <div class="large-2 columns">
+            </div>
+        </div>
+    </header>
 
 <!-- Nav -->
 
-<nav>
-  <div class="row">
-    <div class="large-1 columns"></div>
-    <div class="large-6 columns">
-      <span><a href="#">Home</a></span>
-      <span><a href="#">About Us</a></span>
-      <span><a href="#">Shop</a></span>
-      <span><a href="#">Contact</a></span>
-      </ul>
-    </div>
-    <div class="large-5 columns"></div>
-  </div>
-</nav>
+    <nav>
+        <div class="row">
+<!--             <div class="large-1 columns">
+            </div> -->
+            <div class="large-6 columns">
+                <span><a href="#">Home</a></span>
+                <span><a href="#">About Us</a></span>
+                <span><a href="#">Shop</a></span>
+                <span><a href="#">Contact</a></span>
+            </div>
+            <div class="large-6 columns">
+            </div>
+        </div>
+    </nav>
 
   <!-- End Header and Nav -->
   
-<div class="content">
-  <div class="row">    
+    <div class="content">
+        <div class="row">    
     
-    <!-- Main Content Section -->
-    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-        <div class="large-12 columns"><h3>Hours <small>When We're Open</small></h3></div>
-        <div class="large-9 push-3 columns">
-    <!-- Placeholder images for layout -->
-            <span><img src=""></span>
-            <span><img src=""></span>
-            <span><img src=""></span>
-                
-        </div>
-        
-        
-        <!-- Info Sidebar -->
-        <!-- This is source ordered to be pulled to the left on larger screens -->
-        <div class="large-3 pull-9 columns">
-            
-    <!-- Persistent "Always Buying Comics" bar goes here -->
-            <div class="abc">
-            <p>We're Always Buying Comics!</p>
+        <!-- Main Content Section -->
+        <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+            <!-- <div class="large-12 columns"><h3>Hours <small>When We're Open</small></h3></div> -->
+            <div class="large-9 push-3 columns">
+        <!-- Placeholder images for layout -->
+                <span><img src="img/captain_america_cover.jpg"></span>
+                <span><img src="img/private_eye.png"></span>
+                <span><img src="img/prophet_awake.jpg"></span>      
             </div>
-            <!-- <p><img src="img/hulk.png" /></p> -->
             
+            <!-- Info Sidebar -->
+            <!-- This is source ordered to be pulled to the left on larger screens -->
+            <div class="large-3 pull-9 columns">   
+                <!-- Persistent "Always Buying Comics" bar goes here -->
+                <div class="abc">
+                <p>We're Always Buying Comics!</p>
+                </div>
+            </div>
         </div>
-    </div>
     
     </div>
     
@@ -86,20 +85,20 @@
                 <h3>Store Hours</h3>
                     <div class="row">
                         <div class="large-3 columns">
-                            <div>Sunday: Noon to 6pm</div>
-                            <div>Thursday: 11am to 7pm</div>
+                            <div class="day">Sunday: Noon to 6pm</div>
+                            <div class="day">Thursday: 11am to 7pm</div>
                         </div>
                         <div class="large-3 columns">
-                            <div>Monday: 11am to 7pm</div>
-                            <div>Friday: 11am to 7pm</div>
+                            <div class="day">Monday: 11am to 7pm</div>
+                            <div class="day">Friday: 11am to 7pm</div>
                         </div>
                         <div class="large-3 columns">
-                            <div>Tuesday: 11am to 7pm</div>
-                            <div>Saturday: 10am to 7pm</div>
+                            <div class="day">Tuesday: 11am to 7pm</div>
+                            <div class="day">Saturday: 10am to 7pm</div>
                         </div>
                         <div class="large-3 columns">
-                            <div><strong>Wednesday: 9am to 8pm</strong></div>
-                            <div>New Comics Day!</div>
+                            <div class="day"><strong>Wednesday: 9am to 8pm</strong></div>
+                            <div class="day">New Comics Day!</div>
                         </div>
                     </div>
             </div>

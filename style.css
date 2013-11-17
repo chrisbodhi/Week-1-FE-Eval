@@ -1,14 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+
+
 /*Showing the border and making the sizes of blocks stay the same*/
 
-/** {
+* {
             border: 1px solid red;
             -moz-box-sizing: border-box;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
-        }*/
+        }
 
         /*<!-- put in foundation icon font?-->*/
-
 
 header {
     background-color: #ef3c2b;
@@ -19,6 +21,7 @@ header h1 {
     color: white;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Bangers', Arial, sans-serif;
     /*font-size: 2em;*/
 }
 
@@ -37,7 +40,8 @@ nav {
 nav a {
     text-decoration: none;
     color: white;
-    margin: 15px;
+    margin-right: 25px;
+    font-family: 'Bangers', Arial, sans-serif;
 }
 
 nav a:hover {
@@ -56,14 +60,21 @@ nav a:hover {
 span img {
     width: 200px;
     height: 200px;
-    background-color:green;
-    margin: 0 auto;
+    /*background-color:green;*/
+    margin-left: 15px;
+    opacity: .50;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+}
+
+span img:hover {
+    opacity: 1.0;
 }
 
 /*Two Divs Making Up the Footer*/
 
 footer {
-    background-color: blue;
+    /*background-color: blue;*/
     font-size: 2em;
 }
 
@@ -81,6 +92,7 @@ footer {
     text-align: center;
     text-shadow: 0px 2px 3px #FFFF99;
     font-weight:bolder;
+    font-family: 'Bangers', Arial, sans-serif;
 }
 
 .hours div {
@@ -90,13 +102,18 @@ footer {
     text-shadow: 0px 2px 3px #FFFF99;
 }
 
+.day {
+    padding: 3px 0;
+
+}
+
 .hours:hover {
     height: 200px;
 }
 
 .location {
     background-color: #ef3c2b;
-    height: 75px;
+    height: 150px;
 }
 
 .location p {
@@ -105,6 +122,7 @@ footer {
     text-align: center;
     text-shadow: 0px 2px 3px #FF6666;
     font-weight:bolder;
+    font-family: 'Bangers', Arial, sans-serif;
 }
 
 .location p a {
