@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Days One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Days One'), local('DaysOne-Regular'), url(https://themes.googleusercontent.com/static/fonts/daysone/v3/yfpXiXt9Xp5H97keqlB0t3YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Doppio One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Doppio One Regular'), local('DoppioOne-Regular'), url(https://themes.googleusercontent.com/static/fonts/doppioone/v1/DGr_HuCg-_zePcleoqvEX73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
