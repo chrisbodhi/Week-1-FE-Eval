@@ -5,11 +5,11 @@
 Decide on and enforce a grid - DONE
 Remove 'buying comics' and its columns - DONE
 Place 'buying comics' on side of window
-Consistent text effects throughout 
+Consistent text effects throughout - DONE
 Add text to image hovers
 Add texture to header and footer bars
 Change font for numbers, re: 7 vs. 1 - DONE
-Add transition to nav bar links
+Add transition to nav bar links - DONE
 Replace placeholder images - DONE */
 
 
@@ -22,12 +22,14 @@ Replace placeholder images - DONE */
             box-sizing: border-box;
         }
 
-        /*<!-- put in foundation icon font?-->*/
+/*Header block*/
 
 header {
     background-color: #ef3c2b;
     height: 110px;
 }
+
+/*Text in the header*/
 
 header h1 {
     color: white;
@@ -36,13 +38,16 @@ header h1 {
     font-family: 'Days One', Arial, sans-serif;
     font-size: 3em;
     text-shadow: 0px 3px 1px #FF6666;
-
 }
+
+/*Austin Books logo sticking out of the header, as a nod to comic book characters stretching out of their panels [pun totally intended]*/
 
 header img {
     border-radius: 50%;
     border: 4px solid black;
 }
+
+/*Basic horizontal navigation bar with placeholder links*/
 
 nav {
     background-color: gray;
@@ -60,19 +65,27 @@ nav a {
     -webkit-transition: color 0.5s;
 }
 
+/*Hover changes the color of the link to the same red as the header.*/
+/*Color change happens over a transition, as noted in nav a.*/
+
 nav a:hover {
     color: #ef3c2b;
 }
 
-.abc {
+/*For a feature that does not yet exist - persistent 'always buying comics' link*/
+/*.abc {
     background-color: gray;
     width: 150px;
-}
+}*/
+
+/*For the main body of the page, presently three comic book covers.*/
 
 .content {
     background-color: white;
     margin: 25px 0px;
 }
+
+/*For the cover images' size, placement, and transition effects.*/
 
 span img {
     width: 170px;
@@ -83,19 +96,51 @@ span img {
     -webkit-transition: opacity 1s;
 }
 
+/*For the cover images' transitioning from 50% opacity to 100% over 1 second.*/
+
 span img:hover {
     opacity: 1.0;
 }
 
+/*Image title text appears when mouse hovers over said image.*/
+/*Courtesy of http://www.the-art-of-web.com/css/textoverimage/*/
+
+/*content: attr(title) is not pulling text.*/
+
+/*.over {
+    position: relative;
+    width: 170px;
+    text-decoration: none !important;
+    text-align: center;
+}
+.over:after {
+    content: attr(title);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.5em 2px;
+    width: 170px;
+    background: rgba(0,0,0,0.8);
+    text-decoration: none !important;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
+.over:hover:after, .over:focus:after {
+    opacity: 1.0;
+  }*/
+
 /*Two Divs Making Up the Footer*/
 
 footer {
-    /*background-color: blue;*/
     font-size: 2em;
 }
 
+/*For the yellow hours footer, which expands when hovered over.*/
+
 .hours {
-    background-color: yellow; /*textured light yellow instead?*/
+    background-color: yellow;
     height: 75px;
     margin: 0 auto;
     transition: height 3s;
@@ -118,15 +163,21 @@ footer {
     text-shadow: 0px 2px 3px #FFFF99;
 }
 
+/*For the days and hours listed on the website, intially covered by the Location bar.*/
+
 .day {
     font-family: 'Doppio One', Arial, sans-serif;
     padding: 3px 0;
 
 }
 
+/*Expands the Hours div to reveal the hours of operation. Happens over a 3-second transition.*/
+
 .hours:hover {
     height: 200px;
 }
+
+/*Red Location bar at the very bottom of the page.*/
 
 .location {
     background-color: #ef3c2b;
@@ -142,6 +193,8 @@ footer {
     font-family: 'Days One', Arial, sans-serif;
 }
 
+/*This link the Location bar leads to dialing the phone number to ABC. */
+
 .location p a {
     color: #660000;
     text-align: center;
@@ -150,6 +203,8 @@ footer {
     transition: color 2s, text-shadow 2s;
     -webkit-transition: color 2s, text-shadow 2s; /* Safari */    
 }
+
+/*Changes the color and text shadow of the phone number on hover.*/
 
 .location p a:hover {
     color: white;
