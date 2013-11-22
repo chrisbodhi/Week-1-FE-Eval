@@ -81,8 +81,13 @@ nav a:hover {
 /*For the main body of the page, presently three comic book covers.*/
 
 .content {
-    background-color: white;
-    margin: 25px 0px;
+    padding: 25px 0px;
+    background-color: none;
+    background: url('img/abc_interior_crop.jpg');
+}
+
+body {
+    background: url('img/abc_interior_crop.jpg');
 }
 
 /*For the cover images' size, placement, and transition effects.*/
