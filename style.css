@@ -82,12 +82,9 @@ nav a:hover {
 
 .content {
     padding: 25px 0px;
-    background-color: none;
-    background: url('img/abc_interior_crop.jpg');
-}
-
-body {
-    background: url('img/abc_interior_crop.jpg');
+    background-image: url('img/abc_interior_crop.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 /*For the cover images' size, placement, and transition effects.*/
